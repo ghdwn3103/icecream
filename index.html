@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE ICE</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main_layout.css">
+    <link rel="stylesheet" type="text/css" href="css/media_screen.css">
+    <link rel="stylesheet" type="text/css" href="css/button.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/button.js"></script>
+    <script src="js/jquery.kwicks-2.2.1.js"></script>
+</head>
+<body>
+    <body>
+        <div id="wrap">
+
+          <!--상단(header) 부분-->
+          <header id="header">
+            <!--상단 탑 부분-->
+            <div class="h_top">
+              <!--상단 탑 로그인-->
+              <div class="circle_group">
+                <ul>
+                    <li>
+                      <a href="#">
+                          <span class="txt">LOGIN</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                          <span class="txt">JOIN</span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="circle">
+                          <img src="images/rng.png" alt="" class="img">
+                          <div class="rng">
+                            <img src="images/rng01.png" alt="">
+                            <img src="images/rng02.png" alt="">
+                            <img src="images/rng03.png" alt="">
+                            <img src="images/rng04.png" alt="">
+                          </div>
+                      </div>
+                    </li>
+                </ul>
+              </div>
+              <!--상단 탑 로고-->
+              <a href="index.html"><h1 class="logo"><img src="images/main_logo.png" alt="" /></h1></a>
+            </div>
+            <!--상단 네비 부분-->
+            <nav class="main_nav">
+              <ul>
+                <li class="best">
+                    <a href="#">이달의 베스트</a>
+                </li>
+                <li>
+                    <a href="product.html">메뉴</a>
+                </li>
+                <li>
+                    <a href="#">영양성분 및 알레르기</a>
+                </li>
+                <li>
+                    <a href="#">이벤트</a>
+                </li>
+                <li>
+                    <a href="#">매장</a>
+                </li>
+                <li>
+                    <a href="#">공지사항</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="sub_mn">
+              <div class="sub_mn_in">
+                <ul> <!-- mn1 -->
+                    <li><a href="#">신제품</a></li>
+                    <li><a href="product.html">이달의 베스트</a></li>
+                </ul>
+                <ul> <!-- mn2 -->
+                  <li><a href="product.html">아이스크림</a></li>
+                  <li><a href="#">음료</a></li>
+                  <li><a href="#">커피</a></li>
+                  <li><a href="#">디저트</a></li>
+                </ul>
+                <ul> <!-- mn3 -->
+                  <li><a href="#">아이스크림</a></li>
+                  <li><a href="#">음료</a></li>
+                  <li><a href="#">커피</a></li>
+                  <li><a href="#">디저트</a></li>
+                </ul>
+                <ul> <!-- mn4 -->
+                  <li><a href="#">진행중</a></li>
+                  <li><a href="#">당첨자 발표</a></li>
+                  <li><a href="#">지난 이벤트</a></li>
+                </ul>
+                <ul> <!-- mn5 -->
+                  <li><a href="#">매장찾기</a></li>
+                  <li><a href="#">고객센터</a></li>
+                </ul>
+                <ul> <!-- mn6 -->
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">보도자료</a></li>
+                  <li><a href="#">채용정보</a></li>
+                  <li><a href="#">점포개설문의</a></li>
+                </ul>
+              </div>
+            </div>
+          </header>
+    
+          <!--메인(main) 부분-->
+          <div id="main_img">
+            <article class="area">
+            <div class="img_area">
+                <ul class="imgs">
+                  <!-- 메인1 -->
+                  <li class="img01">
+                    <!-- <img src="images/main1.png" alt=""> -->
+                  </li>
+                  <!-- 메인2 -->
+                  <li class="img02">
+                    <!-- <img src="images/main2.png" alt=""> -->
+                  </li>
+                  <!-- 메인3 -->
+                  <li class="img03">
+                    <!-- <img src="images/main3.png" alt=""> -->
+                  </li>
+                </ul>
+            </div>
+            <!-- 메인 버튼 -->
+           
+          </article>
+          
+          <ul class="btns">
+            <li class="left">&#171;</li>
+            <li class="right">&#187;</li>
+          </ul>
+            <!--메인 라인 부분-->
+            <!-- <div class="line"></div> -->
+          </div>
+    
+          <!--내용(contents) 부분-->
+          <div id="contents">
+            <!--내용1. 광고영상 부분-->
+            <section id="c_movie">
+              <div class="m_back">
+                <div class="video_img">
+                  <img src="images/video_img.png" alt="">
+                  <p>Video Player</p>
+                </div>
+                <video calss="video" src="images/icecream.mp4" controls autoplay loop></video>
+              </div>
+            </section>
+            <!--내용2. 바로가기 메뉴 부분-->
+            <section id="c_go_menu">
+              <div class="g_back">
+                <article class="menu_box">
+                  <ul class="m_gruop">
+                    <li class="icecream">
+                      <p><a href="http://kyng1916.dothome.co.kr/gj_web_age/product.html">ICECREAM</a></p>
+                      <div><a href="http://kyng1916.dothome.co.kr/gj_web_age/product.html">&#62;</a></div>
+                      <img src="images/img1.png" alt="">
+                    </li>
+                    <li class="coffee">
+                      <img src="images/COFFEE2.png" alt="">
+                      <p><a href="">COFFEE</a></p>
+                      <div><a href="#">&#62;</a></div>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li class="beverage">
+                      <p><a href="#">BEVERAGE</a></p>
+                      <div><a href="#">&#62;</a></div>
+                      <img src="images/beverage2.png" alt="">
+                    </li>
+                  </ul>
+                  <ul>
+                    <li class="dissert">
+                      <p><a href="#">DESSERT</a></p>
+                      <div><a href="#">&#62;</a></div>
+                      <img src="images/DESSERT2.png" alt="">
+                    </li>
+                  </ul>
+                </article>
+              </div>
+            </section>
+            <!--내용3. 배너 부분-->
+            <section id="c_banner">
+              <div class="b_box">
+                <ul class="kwicks horizontal">
+                  <li class="kwick_1">
+                    <div>
+                      <!-- <img src="images/guid01.png" alt="">-->
+                      <img src="images/m1.png" alt="">
+                      <p>매장 찾기</p>
+                    </div>
+                  </li>
+                  <li class="kwick_2">
+                    <div>
+                      <img src="images/m2.png" alt="">
+                      <p>모바일%배달서비스 안내<br>배달콜 1588-5890</p>
+                      <!-- <img src="images/pngegg.png" alt="">-->
+                    </div>
+                  </li>
+                  <li class="kwick_3">
+                    <div>
+                      <!-- <img src="images/guid03.png" alt="">-->
+                      <img src="images/m3.png" alt="">
+                      <p>새<span>로운 소</span>식</p>
+                    </div>
+                  </li>
+                  <li class="kwick_4">
+                    <div>
+                      <!-- <img src="images/guid04.png" alt="">-->
+                      <img src="images/m4.png" alt="">
+                      <p>공지사항</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!--
+              <div class="buttonIine">
+                <div class="line"></div>
+                <button class="search" type="button">매장 찾기</button>
+                <button class="mobile" type="button">모바일&배달</button>
+                <button class="new" type="button">새로운 소식</button>
+                <button class="notice" type="button">공지사항</button>
+              </div>
+              -->
+
+
+
+              <!-- /////////////////////////// -->
+              <div class="header-vertical">
+                <!-- 네비게이션 -->
+                <div id="btns">
+                   <ul class="gnb">
+                      <li class="button1"><a href="#"><span>Search</span></a></li>
+                      <li class="button2"><a href="#"><span>Mobile & Delivery </span></a></li>
+                      <li class="button3"><a href="#"><span>News</span></a></li>
+                      <li class="button4"><a href="#"><span>Notice</span></a></li>
+                   </ul>
+                  </div>
+              </div>
+              <!-- /////////////////////////// -->
+
+            </section>
+            <!--내용4. sns 부분-->
+            <section id="c_sns">
+              <div class="s_back">
+                <article class="s_h">
+                  <h3>sns</h3>
+                  <ul>
+                    <li><img src="images/sns01.png" alt=""></li>
+                    <li><img src="images/sns02.png" alt=""></li>
+                    <li><img src="images/sns03.png" alt=""></li>
+                    <li><img src="images/sns04.png" alt=""></li>
+                    <li><img src="images/sns05.png" alt=""></li>
+                  </ul>
+                </article>
+                <article class="s_b">
+                  <ul class="container1">
+                    <li class="item">
+                      <img src="images/sns_img1.PNG" alt="">
+                    </li>
+                    <li class="item">
+                      <img src="images/sns_img2.PNG" alt="">
+                    </li>
+                    <li class="item">
+                      <img src="images/sns_img3.PNG" alt="">
+                    </li>
+                    <li class="item">
+                      <img src="images/sns_img4.PNG" alt="">
+                    </li>
+                    <li class="item">
+                      <img src="images/sns_img5.PNG" alt="">
+                    </li>
+                    <li class="item">
+                      <img src="images/sns_img6.PNG" alt="">
+                    </li>
+                    <li class="item">
+                      <img src="images/sns_img7.PNG" alt="">
+                    </li>
+                    <li class="item">
+                      <img src="images/sns_img8.PNG" alt="">
+                    </li>
+                    <li class="item">
+                      <img src="images/sns_img9.PNG" alt="">
+                    </li>
+                    <li class="item">
+                      <img src="images/sns_img10.PNG" alt="">
+                    </li>
+                  </ul>
+                  <ul class="container2">
+                    <li class="item">
+                      <img src="images/sns_img11.PNG" alt="">
+                    </li>
+                    <li class="item">
+                      <img src="images/sns_img12.PNG" alt="">
+                    </li>
+                    <li class="item">
+                      <img src="images/sns_img13.PNG" alt="">
+                    </li>
+                    <li class="item">
+                      <img src="images/sns_img14.PNG" alt="">
+                    </li>
+                    <li class="item">
+                      <img src="images/sns_img15.PNG" alt="">
+                    </li>
+                  </ul>
+                  
+                </article>
+                <div class="button">+ 더보기</div>
+              </div>
+            </section>
+          </div>
+          <!--하단(footer) 부분-->
+          <footer id="footer">
+            <!--하단1. 탑 부분-->
+            <div class="f_top">
+              <ul class="info_mn">
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보취급방침</a></li>
+                <li><a href="#">고객의 소리</a></li>
+            </ul>
+            </div>
+            <!--하단2. 중간 부분-->
+            <div class="f_middle">
+              <h2><a href="#"><img src="images/main_logo.png" alt=""></a></h2>
+              <table>
+                <tr>
+                  <td><b>사업자등록번호 &nbsp;</b></td>
+                  <td>616-91-78183</td>
+                  <td><b>대표자</b></td>
+                  <td>이홍주</td>
+                </tr>
+                </tr>
+                <tr>
+                  <td><b>주 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 소</b></td>
+                  <td>부산광역시 부산진구 중앙대로 668 &nbsp; &nbsp; </td>
+                  <td><b>T&nbsp;&nbsp;E&nbsp;&nbsp;L &nbsp;</b></td>
+                  <td>051-1588-5890</td>
+                </tr>
+                <tr>
+                </tr>
+              </table>
+            </div>
+            <!--하단3. 바텀 부분-->
+            <div class="f_bom">
+              <p>Copyright2021 LOVE Company.All Rights Reserved</p>
+            </div>
+        </footer>
+</body>
+</html>
