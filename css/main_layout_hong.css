@@ -1384,7 +1384,7 @@
   }
   #video {
     position: absolute;
-    top: 36%;
+    top: 46%;
     left: 28.5%;
     width: 650px;
     border-radius: 10%;
@@ -1394,7 +1394,7 @@
   }
   .play {
     position: absolute;
-    top: -46%;
+    top: -35%;
     left: -44%;
     z-index: 500;
     cursor: pointer;
@@ -1402,8 +1402,8 @@
   }
   #c_movie_main h3 {
     position: absolute;
-    top: 38%;
-    left: 3%;
+    top: 44%;
+    left: 4%;
     z-index: 501;
     font-size: 55px;
     font-weight: bolder;
@@ -1447,7 +1447,7 @@
   }
   .stop {
     position: absolute;
-    top: 68%;
+    top: 74.9%;
     left: 11.5%;
     z-index: 502;
     background-color: rgb(252, 47, 47);
