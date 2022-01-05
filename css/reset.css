@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  /* cursor: url(../images/hearts.png), auto; */
+  /* cursor: url("https://blog.kakaocdn.net/dn/BQXpN/btq3qNR67Lg/8tx8tGzkOcr5BuX5dyIaKk/img.png"),
+    auto; */
+}
+body {
+  /* font-family: "맑은고딕"; */
+  /* font-family: "Ubuntu", sans-serif; */
+  /* font-family: "Ceviche One", cursive; */
+  /* font-family: "Bebas Neue", cursive; */
+  /* font-family: "Rampart One", cursive; */
+  /* font-family: "Nanum Gothic", sans-serif; */
+  /* font-family: 'Nanum Pen Script', cursive; */
+  font-family: "Single Day", cursive;
+  font-size: 14px;
+  color: #444;
+  /* cursor: url(../images/hearts.png) auto; */
+  /* cursor: url("https://blog.kakaocdn.net/dn/BQXpN/btq3qNR67Lg/8tx8tGzkOcr5BuX5dyIaKk/img.png"),
+    auto; */
+}
+body:hover {
+  /* cursor: url("https://blog.kakaocdn.net/dn/BQXpN/btq3qNR67Lg/8tx8tGzkOcr5BuX5dyIaKk/img.png"),
+    auto; */
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: 0;
+}
+button {
+  font-family: "Single Day", cursive;
+}
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap'); */
